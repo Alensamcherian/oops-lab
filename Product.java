@@ -25,15 +25,15 @@ class Product
 		ob3.dis();
 		if(ob1.price<ob2.price && ob1.price<ob3.price)
 		{
-			System.out.println("huawi has low price");
+			System.out.println("oneplus has low price");
 		}
 		else if(ob2.price<ob3.price)
 		{
-			System.out.println("samsung has low cost");
+			System.out.println("apple has low cost");
 		}
 		else
 		{
-			System.out.println("oppo has low cost");
+			System.out.println("samsung has low cost");
 		}
 	}
 }
